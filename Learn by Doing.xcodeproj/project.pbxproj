@@ -11,6 +11,8 @@
 		E26DF78F2A418CB0002CA779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26DF78E2A418CB0002CA779 /* ContentView.swift */; };
 		E26DF7912A418CB2002CA779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26DF7902A418CB2002CA779 /* Assets.xcassets */; };
 		E26DF7942A418CB2002CA779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26DF7932A418CB2002CA779 /* Preview Assets.xcassets */; };
+		E283172F2A42A9B7008915F2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283172E2A42A9B6008915F2 /* CardModel.swift */; };
+		E28317312A42AAC4008915F2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28317302A42AAC4008915F2 /* CardData.swift */; };
 		E2D55A532A41A0CD00D7CD24 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D55A522A41A0CD00D7CD24 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +22,8 @@
 		E26DF78E2A418CB0002CA779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E26DF7902A418CB2002CA779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26DF7932A418CB2002CA779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E283172E2A42A9B6008915F2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		E28317302A42AAC4008915F2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		E2D55A522A41A0CD00D7CD24 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +62,8 @@
 				E26DF7902A418CB2002CA779 /* Assets.xcassets */,
 				E26DF7922A418CB2002CA779 /* Preview Content */,
 				E2D55A522A41A0CD00D7CD24 /* CardView.swift */,
+				E283172E2A42A9B6008915F2 /* CardModel.swift */,
+				E28317302A42AAC4008915F2 /* CardData.swift */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28317312A42AAC4008915F2 /* CardData.swift in Sources */,
 				E26DF78F2A418CB0002CA779 /* ContentView.swift in Sources */,
+				E283172F2A42A9B7008915F2 /* CardModel.swift in Sources */,
 				E2D55A532A41A0CD00D7CD24 /* CardView.swift in Sources */,
 				E26DF78D2A418CB0002CA779 /* Learn_by_DoingApp.swift in Sources */,
 			);
